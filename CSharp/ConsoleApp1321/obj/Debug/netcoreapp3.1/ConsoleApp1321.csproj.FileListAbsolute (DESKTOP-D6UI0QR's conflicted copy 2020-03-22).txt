@@ -1,0 +1,11 @@
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\bin\Debug\netcoreapp3.1\ConsoleApp1321.exe
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\bin\Debug\netcoreapp3.1\ConsoleApp1321.deps.json
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\bin\Debug\netcoreapp3.1\ConsoleApp1321.runtimeconfig.json
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\bin\Debug\netcoreapp3.1\ConsoleApp1321.runtimeconfig.dev.json
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\bin\Debug\netcoreapp3.1\ConsoleApp1321.dll
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\bin\Debug\netcoreapp3.1\ConsoleApp1321.pdb
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\obj\Debug\netcoreapp3.1\ConsoleApp1321.csprojAssemblyReference.cache
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\obj\Debug\netcoreapp3.1\ConsoleApp1321.AssemblyInfoInputs.cache
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\obj\Debug\netcoreapp3.1\ConsoleApp1321.AssemblyInfo.cs
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\obj\Debug\netcoreapp3.1\ConsoleApp1321.dll
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp1321\obj\Debug\netcoreapp3.1\ConsoleApp1321.pdb

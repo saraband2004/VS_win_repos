@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\FZ\Dropbox\C\Project2347681C\Source.c(29,25): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type 'int *'
+C:\Users\FZ\Dropbox\C\Project2347681C\Source.c(29,25): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 2 has type 'int *'
+  Project2347681C.vcxproj -> C:\Users\FZ\Dropbox\C\Project2347681C\Debug\Project2347681C.exe

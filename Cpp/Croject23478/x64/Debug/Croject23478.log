@@ -1,0 +1,4 @@
+﻿  Source.c
+C:\Users\FZ\Dropbox\Cpp\Croject23478\Source.c(99,15): warning C4474: 'printf' : too many arguments passed for format string
+C:\Users\FZ\Dropbox\Cpp\Croject23478\Source.c(99,15): message : placeholders and their parameters expect 0 variadic arguments, but 1 were provided
+  Croject23478.vcxproj -> C:\Users\FZ\Dropbox\Cpp\Croject23478\x64\Debug\Croject23478.exe

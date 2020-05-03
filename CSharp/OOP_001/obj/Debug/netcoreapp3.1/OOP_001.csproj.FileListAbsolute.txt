@@ -1,0 +1,11 @@
+C:\Users\FZ\Dropbox\CSharp\OOP_001\obj\Debug\netcoreapp3.1\OOP_001.csprojAssemblyReference.cache
+C:\Users\FZ\Dropbox\CSharp\OOP_001\obj\Debug\netcoreapp3.1\OOP_001.AssemblyInfoInputs.cache
+C:\Users\FZ\Dropbox\CSharp\OOP_001\obj\Debug\netcoreapp3.1\OOP_001.AssemblyInfo.cs
+C:\Users\FZ\Dropbox\CSharp\OOP_001\obj\Debug\netcoreapp3.1\OOP_001.dll
+C:\Users\FZ\Dropbox\CSharp\OOP_001\obj\Debug\netcoreapp3.1\OOP_001.pdb
+C:\Users\FZ\Dropbox\CSharp\OOP_001\bin\Debug\netcoreapp3.1\OOP_001.exe
+C:\Users\FZ\Dropbox\CSharp\OOP_001\bin\Debug\netcoreapp3.1\OOP_001.deps.json
+C:\Users\FZ\Dropbox\CSharp\OOP_001\bin\Debug\netcoreapp3.1\OOP_001.runtimeconfig.json
+C:\Users\FZ\Dropbox\CSharp\OOP_001\bin\Debug\netcoreapp3.1\OOP_001.runtimeconfig.dev.json
+C:\Users\FZ\Dropbox\CSharp\OOP_001\bin\Debug\netcoreapp3.1\OOP_001.dll
+C:\Users\FZ\Dropbox\CSharp\OOP_001\bin\Debug\netcoreapp3.1\OOP_001.pdb

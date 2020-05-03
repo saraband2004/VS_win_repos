@@ -1,0 +1,14 @@
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\bin\Debug\netcoreapp3.1\ConsoleApp3341.exe
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\bin\Debug\netcoreapp3.1\ConsoleApp3341.deps.json
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\bin\Debug\netcoreapp3.1\ConsoleApp3341.runtimeconfig.json
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\bin\Debug\netcoreapp3.1\ConsoleApp3341.runtimeconfig.dev.json
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\bin\Debug\netcoreapp3.1\ConsoleApp3341.dll
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\bin\Debug\netcoreapp3.1\ConsoleApp3341.pdb
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\obj\Debug\netcoreapp3.1\ConsoleApp3341.csprojAssemblyReference.cache
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\obj\Debug\netcoreapp3.1\ConsoleApp3341.AssemblyInfoInputs.cache
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\obj\Debug\netcoreapp3.1\ConsoleApp3341.AssemblyInfo.cs
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\obj\Debug\netcoreapp3.1\ConsoleApp3341.dll
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\obj\Debug\netcoreapp3.1\ConsoleApp3341.pdb
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\bin\Debug\netcoreapp3.1\Magnum.dll
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\FZ\Dropbox\CSharp\ConsoleApp3341\obj\Debug\netcoreapp3.1\ConsoleApp3341.csproj.CopyComplete

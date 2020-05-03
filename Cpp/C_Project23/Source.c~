@@ -1,0 +1,62 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct node {
+    int key;
+    struct node* left;
+    struct node* right;
+};
+
+
+
+struct node* create(int val) {
+    struct node* p = (struct node*) malloc(sizeof(struct node));
+    p->key = val;
+    p->left = 0;
+    p->right = 0;
+    return p;
+}
+void insert(int val, struct node** root) {
+    if (*root == NULL) {
+        *root = create(val);
+        return;
+    }
+    if (val > (*root)->key) {
+        insert(val, &((*root)->right));
+    }
+    if (val < (*root)->key) {
+        insert(val, &((*root)->left));
+    }
+}
+void inorder(struct node* p) {
+    
+    if (p == 0) return;
+    inorder(p->left);
+    printf("%d ", p->key);
+    inorder(p->right);
+}
+
+int main() {
+    // printf() displays the string inside quotation
+    printf("Hello, World!");
+
+    struct node * p = 0;
+    insert(5, &p);
+    insert(3, &p);
+    insert(7, &p);
+    insert(1, &p);
+    insert(9, &p);
+    insert(8, &p);
+    
+    inorder(p);
+
+    char s[] = "abcdefg";
+    s[0] = (char)0;
+    s[1] = (char)0;
+    s[2] = (char)0;
+    s[3] = (char)0;
+    s[0] = 'A';
+    int* t = (int *) s;
+    printf(" %d", *t);
+    return 0;
+}
