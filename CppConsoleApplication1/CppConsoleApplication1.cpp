@@ -2,7 +2,7 @@
 #include <iostream>
 #include <vector>
 #include <set>
-#include <unordered_set>
+#include <map>
 #include <stack>
 #include <algorithm>
 #include <array>
@@ -10,55 +10,34 @@ using namespace std;
 
 class Solution {
 public:
-    int largestRectangleArea(vector<int>& heights) {
-        stack<int> Stack;
-        heights.push_back(0);
-        int max = 0;
-        int min = 1 << 30 + 1<<29;
+    vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
+        vector<vector<int>> buildings_format;
+        for (vector<int> building : buildings) {
+            vector<int> building_format0;
+            building_format0.push_back(building[0]);
+            building_format0.push_back(building[2]);
 
-        vector<int> arr;
-        for (int i = 0; i < heights.size(); i++) {
-            arr.push_back(heights[i]);
+            buildings_format.push_back(building_format0);
+
+            vector<int> building_format1;
+            building_format0.push_back(building[1]);
+            building_format0.push_back(0);
+            buildings_format.push_back(building_format1);
         }
-        
-        for (int i = 0; i < heights.size(); ) {
-            if (Stack.empty() || heights[i] > arr[Stack.top()]) {
-                Stack.push(i);
-                min = std::min(min, heights[i]);
-                i++;
-            }
-            else if (heights[i] == arr[Stack.top()]) {
-                max = std::max(max, heights[i] * (i - Stack.top() + 1));
-                i++;
-            }
-            else {
-                auto j = Stack.top();
-                while (!Stack.empty() && arr[Stack.top()] > heights[i]) {
-                    j = Stack.top();
-                    Stack.pop();
-                }
-                
-                max = std::max(max, arr[j] * (i - j));
-                arr[j] = heights[i];
-                max = std::max(max, arr[j] * (i - j + 1));
-                Stack.push(j);
-            }
-        }
-        
-        return max; //std::max(max, (signed int)(min * heights.size()));
+    }
+
+
+    vector<vector<int>> merge(vector<vector<int>>& b1, vector<vector<int>>& b2) {
+        map<int, int> map 
     }
 };
 
 
 int main(int argc, const char* argv[]) {
-    Solution s;
-    vector<int> h;
-    h.push_back(0);
-    h.push_back(3);
-    h.push_back(2);
-    h.push_back(5);
-    cout << s.largestRectangleArea(h);
-
+    map<int, int> tree;
+    tree.insert(pair<int, int>(1111, 1));
+    //tree.erase(tree.find(111));
+    tree.insert(pair<int, int>(1111, 3));
+    cout << tree.find(1111)->second << tree.size();
     return 0;
-
 }
