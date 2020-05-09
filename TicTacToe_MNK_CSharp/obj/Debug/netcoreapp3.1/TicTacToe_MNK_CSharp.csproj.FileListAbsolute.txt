@@ -1,0 +1,11 @@
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\bin\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.exe
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\bin\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.deps.json
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\bin\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.runtimeconfig.json
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\bin\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.runtimeconfig.dev.json
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\bin\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.dll
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\bin\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.pdb
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.csprojAssemblyReference.cache
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.AssemblyInfoInputs.cache
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.AssemblyInfo.cs
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.dll
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.pdb
