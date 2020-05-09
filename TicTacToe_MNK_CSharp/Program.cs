@@ -17,15 +17,15 @@ namespace TicTacToe_MNK_CSharp
         }
         static void Main(string[] args)
         {
-            Board board = new Board(5, 4, 4);
+            Board board = new Board(4, 4, 4 );
             ComputerPlayer cpu1 = new ComputerPlayer('A', 'B', board);
             ComputerPlayer cpu2 = new ComputerPlayer('B', 'A', board);
             board.print();
             cpu1.nextMove();
-            //cpu2.nextMove();
+            cpu2.nextMove();
             board.print();
-            Console.WriteLine(fibo(45));
-            Console.WriteLine(fibo(45));
+            Console.WriteLine(cpu1.memo.Count);
+           // Console.WriteLine(fibo(45));
         }
     }
 }
