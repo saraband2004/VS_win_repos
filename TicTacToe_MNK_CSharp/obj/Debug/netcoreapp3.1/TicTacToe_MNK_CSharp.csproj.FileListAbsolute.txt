@@ -9,3 +9,5 @@ C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_
 C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.AssemblyInfo.cs
 C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.dll
 C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.pdb
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.csproj.CoreCompileInputs.cache
+C:\Users\FZ\source\repos\TicTacToe_MNK_CSharp\obj\Debug\netcoreapp3.1\TicTacToe_MNK_CSharp.genruntimeconfig.cache

@@ -1,0 +1,13 @@
+C:\Users\FZ\source\repos\CSharpConsoleApp1\bin\Debug\netcoreapp3.1\CSharpConsoleApp1.exe
+C:\Users\FZ\source\repos\CSharpConsoleApp1\bin\Debug\netcoreapp3.1\CSharpConsoleApp1.deps.json
+C:\Users\FZ\source\repos\CSharpConsoleApp1\bin\Debug\netcoreapp3.1\CSharpConsoleApp1.runtimeconfig.json
+C:\Users\FZ\source\repos\CSharpConsoleApp1\bin\Debug\netcoreapp3.1\CSharpConsoleApp1.runtimeconfig.dev.json
+C:\Users\FZ\source\repos\CSharpConsoleApp1\bin\Debug\netcoreapp3.1\CSharpConsoleApp1.dll
+C:\Users\FZ\source\repos\CSharpConsoleApp1\bin\Debug\netcoreapp3.1\CSharpConsoleApp1.pdb
+C:\Users\FZ\source\repos\CSharpConsoleApp1\obj\Debug\netcoreapp3.1\CSharpConsoleApp1.csprojAssemblyReference.cache
+C:\Users\FZ\source\repos\CSharpConsoleApp1\obj\Debug\netcoreapp3.1\CSharpConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\FZ\source\repos\CSharpConsoleApp1\obj\Debug\netcoreapp3.1\CSharpConsoleApp1.AssemblyInfoInputs.cache
+C:\Users\FZ\source\repos\CSharpConsoleApp1\obj\Debug\netcoreapp3.1\CSharpConsoleApp1.AssemblyInfo.cs
+C:\Users\FZ\source\repos\CSharpConsoleApp1\obj\Debug\netcoreapp3.1\CSharpConsoleApp1.dll
+C:\Users\FZ\source\repos\CSharpConsoleApp1\obj\Debug\netcoreapp3.1\CSharpConsoleApp1.pdb
+C:\Users\FZ\source\repos\CSharpConsoleApp1\obj\Debug\netcoreapp3.1\CSharpConsoleApp1.genruntimeconfig.cache

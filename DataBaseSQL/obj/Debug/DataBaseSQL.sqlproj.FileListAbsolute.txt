@@ -1,0 +1,10 @@
+C:\Users\FZ\source\repos\DataBaseSQL\bin\Debug\DataBaseSQL.dacpac
+C:\Users\FZ\source\repos\DataBaseSQL\bin\Debug\DataBaseSQL.dll
+C:\Users\FZ\source\repos\DataBaseSQL\bin\Debug\DataBaseSQL.pdb
+C:\Users\FZ\source\repos\DataBaseSQL\obj\Debug\DataBaseSQL.sqlprojAssemblyReference.cache
+C:\Users\FZ\source\repos\DataBaseSQL\obj\Debug\Model.xml
+C:\Users\FZ\source\repos\DataBaseSQL\obj\Debug\refactor.xml
+C:\Users\FZ\source\repos\DataBaseSQL\obj\Debug\postdeploy.sql
+C:\Users\FZ\source\repos\DataBaseSQL\obj\Debug\predeploy.sql
+C:\Users\FZ\source\repos\DataBaseSQL\obj\Debug\DataBaseSQL.dll
+C:\Users\FZ\source\repos\DataBaseSQL\obj\Debug\DataBaseSQL.pdb

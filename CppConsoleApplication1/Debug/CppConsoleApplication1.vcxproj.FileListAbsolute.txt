@@ -1,0 +1,2 @@
+C:\Users\FZ\source\repos\CppConsoleApplication1\Debug\CppConsoleApplication1.exe
+C:\Users\FZ\source\repos\CppConsoleApplication1\Debug\CppConsoleApplication1.pdb

@@ -25,7 +25,8 @@ namespace CSharpConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int x = 555;
+            Console.WriteLine($"{x}");
         }
     }
 }

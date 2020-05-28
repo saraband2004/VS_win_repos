@@ -1,0 +1,13 @@
+C:\Users\FZ\source\repos\CS_ConsoleApp13\bin\Debug\netcoreapp3.1\CS_ConsoleApp13.exe
+C:\Users\FZ\source\repos\CS_ConsoleApp13\bin\Debug\netcoreapp3.1\CS_ConsoleApp13.deps.json
+C:\Users\FZ\source\repos\CS_ConsoleApp13\bin\Debug\netcoreapp3.1\CS_ConsoleApp13.runtimeconfig.json
+C:\Users\FZ\source\repos\CS_ConsoleApp13\bin\Debug\netcoreapp3.1\CS_ConsoleApp13.runtimeconfig.dev.json
+C:\Users\FZ\source\repos\CS_ConsoleApp13\bin\Debug\netcoreapp3.1\CS_ConsoleApp13.dll
+C:\Users\FZ\source\repos\CS_ConsoleApp13\bin\Debug\netcoreapp3.1\CS_ConsoleApp13.pdb
+C:\Users\FZ\source\repos\CS_ConsoleApp13\obj\Debug\netcoreapp3.1\CS_ConsoleApp13.csprojAssemblyReference.cache
+C:\Users\FZ\source\repos\CS_ConsoleApp13\obj\Debug\netcoreapp3.1\CS_ConsoleApp13.csproj.CoreCompileInputs.cache
+C:\Users\FZ\source\repos\CS_ConsoleApp13\obj\Debug\netcoreapp3.1\CS_ConsoleApp13.AssemblyInfoInputs.cache
+C:\Users\FZ\source\repos\CS_ConsoleApp13\obj\Debug\netcoreapp3.1\CS_ConsoleApp13.AssemblyInfo.cs
+C:\Users\FZ\source\repos\CS_ConsoleApp13\obj\Debug\netcoreapp3.1\CS_ConsoleApp13.dll
+C:\Users\FZ\source\repos\CS_ConsoleApp13\obj\Debug\netcoreapp3.1\CS_ConsoleApp13.pdb
+C:\Users\FZ\source\repos\CS_ConsoleApp13\obj\Debug\netcoreapp3.1\CS_ConsoleApp13.genruntimeconfig.cache

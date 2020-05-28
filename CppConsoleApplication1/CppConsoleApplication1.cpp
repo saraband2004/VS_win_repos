@@ -8,104 +8,72 @@
 #include <array>
 using namespace std;
 
-
-
 class Solution {
 public:
-    vector<vector<int>> getSkyline(vector<vector<int>>& buildings) {
-        vector<vector<vector<int>>> bb;
-        if (buildings.size() == 0) return buildings;
-        for (vector<int> building : buildings) {
-            vector<vector<int>> buildings_format;
-            vector<int> building_format0;
-            building_format0.push_back(building[0]);
-            building_format0.push_back(building[2]);
+    int longestMountain(vector<int>& A) {
+        vector<int> incre;
+        vector<int> decre;
+        stack<int> stack, stuck;
+        
 
-            buildings_format.push_back(building_format0);
-
-            vector<int> building_format1;
-            building_format1.push_back(building[1]);
-            building_format1.push_back(0);
-            buildings_format.push_back(building_format1);
-            bb.push_back(buildings_format);
-        }
-        //    cout << bb[0][0][0] << bb[0][0][1] << bb[0][1][0] << bb[0][1][1] <<endl;
-        //    cout << bb[1][0][0] << bb[1][0][1] << bb[1][1][0] << bb[1][1][1] <<endl;
-        //vector<vector<int>> answer = Merge(bb, 0, bb.size() - 1); //= merge(bb[0], bb[1]);//
-        return Merge(bb, 0, bb.size() - 1);;
-    }
-    vector<vector<int>> Merge(vector<vector<vector<int>>>& buildings, int left, int right) {
-        if (left == right) {
-            return buildings[left];
-        }
-        if (left + 1 == right) {
-            return merge(buildings[left], buildings[right]);
-        }
-        int mid = (left + right) / 2;
-        vector<vector<int>> ans1 = Merge(buildings, left, mid);
-        vector<vector<int>> ans2 = Merge(buildings, mid + 1, right);
-        return merge(ans1, ans2);
-    }
-
-    vector<vector<int>> merge(vector<vector<int>>& b1, vector<vector<int>>& b2) {
-        auto it1 = b1.begin();
-        auto it2 = b2.begin();
-        vector<vector<int>> answer;
-        int h1 = 0;
-        int h2 = 0;
-        int h = 0;
-        int prev = 0;
-
-        while (it1 != b1.end() || it2 != b2.end()) {
-            int x = 0;
-            // cout << h << " " << prev << endl;
-            if (it2 == b2.end() || (it1 != b1.end() && it1->at(0) < it2->at(0))) {
-                h1 = (it1->at(1));
-                x = it1->at(0);
-                it1++;
-            }
-            else if (it1 == b1.end() || (it2 != b2.end() && it1->at(0) > it2->at(0))) {
-                h2 = (it2->at(1));
-                x = it2->at(0);
-                it2++;
+        for (int num : A) {
+            if (!stack.empty() && num > stack.top()) {
+                incre.push_back(stack.size());
+                stack.push(num);
             }
             else {
-                h1 = (it1->at(1));
-                h2 = (it2->at(1));
-                x = it1->at(0);
-                it1++;
-                it2++;
+                while (!stack.empty()) {
+                    stack.pop();
+                }
+                incre.push_back(0);
+                stack.push(num);
             }
-            h = std::max(h1, h2);
-            if (h != prev) {
-                vector<int> vec;
-                vec.push_back(x);
-                vec.push_back(h);
-                answer.push_back(vec);
-            }
-            prev = h;
         }
-        return answer;
+
+
+        
+
+        for (auto it = A.rbegin(); it != A.rend(); it++) {
+            if (!stuck.empty() && *it > stuck.top()) {
+                decre.push_back(stuck.size());
+                stuck.push(*it);
+            }
+            else {
+                while (!stuck.empty()) {
+                    stuck.pop();
+                }
+                decre.push_back(0);
+                stuck.push(*it);
+            }
+        }
+
+       // cout << incre.size() << " " << decre.size();
+
+        int max;
+        int Max = 0;
+        for (int i = 0; i < incre.size(); i++) {
+            
+            if (incre[i] != 0 && decre[decre.size() - 1 - i] != 0) {
+                cout << incre[i] << " , " << decre[decre.size() - 1 - i] << endl;
+                max = incre[i] + decre[decre.size() - 1 - i] + 1;
+                Max = std::max(Max, max );
+            }
+        }
+        return Max;
     }
 };
 
 
 int main(int argc, const char* argv[]) {
-    vector<vector<int>> buildings;
-    vector<int> b1;
-    b1.push_back(1);
-    b1.push_back(3);
-    b1.push_back(10);
-
-    vector<int> b2;
-    b2.push_back(2);
-    b2.push_back(4);
-    b2.push_back(20);
-
-    buildings.push_back(b1);
-    buildings.push_back(b2);
-
     Solution s;
-    s.getSkyline(buildings);
+    vector<int> list;
+    list.push_back(0);
+    list.push_back(1);
+    list.push_back(2);
+    list.push_back(3);
+    list.push_back(2);
+    list.push_back(1);
+    cout<<s.longestMountain(list);
     return 0;
 }
+
