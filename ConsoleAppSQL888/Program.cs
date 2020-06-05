@@ -39,7 +39,7 @@ namespace ConsoleAppSQL888
             watch.Start();
 
             //SqlDataAdapter sqlda = new SqlDataAdapter("SELECT * from Person where AGE = 22350000", sqlCon);
-            SqlDataAdapter sqlda = new SqlDataAdapter("SELECT * from Person where AGE = (Select max(AGE) from Person )", sqlCon);
+            SqlDataAdapter sqlda = new SqlDataAdapter("SELECT * from Person ", sqlCon);
             //SqlDataAdapter sqlda = new SqlDataAdapter("SELECT * from Person where PID = 199999 ", sqlCon);
 
             
@@ -51,9 +51,9 @@ namespace ConsoleAppSQL888
 
 
             Console.WriteLine(dtbl.Rows.Count);
-            foreach (DataRow row in dtbl.Rows) {
-                Console.WriteLine(row["PID"] +"  "+row["AGE"]  );
-            }
+            /*              foreach (DataRow row in dtbl.Rows) {
+                             Console.WriteLine(row["PID"] +"  "+row["AGE"]  );
+                         }*/
 
         }
     }
